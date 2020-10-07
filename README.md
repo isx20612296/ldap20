@@ -1,4 +1,6 @@
-# ldap20
+# LDAP Server
 
-isx20612296@edt 
-ASIX M06-ASO
+@edt ASIX M06-ASO
+Servidor LDAP
+
+
