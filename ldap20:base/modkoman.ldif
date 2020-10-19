@@ -1,0 +1,13 @@
+dn: cn=Koman 4,ou=usuaris,dc=edt,dc=org
+changetype: add
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn: koman noturrons
+cn: tintin
+sn: koman
+ou: Alumnes
+uid: koman
+uidNumber: 1002
+gidNumber: 600
+homeDirectory: /tmp/home/koman
+userPassword: {SSHA}AJGTpGLBWbdcxo9kLpHMPnZq2bMF1Zdv

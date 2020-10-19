@@ -1,0 +1,42 @@
+dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
+changetype: add
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: Anna Pou
+cn: Anita Pou
+sn: Pou
+homephone: 555-222-2222
+mail: anna@edt.org
+description: Watch out for this girl
+ou: Alumnes
+uid: anna
+uidNumber: 5002
+gidNumber: 600
+homeDirectory: /tmp/home/anna
+userPassword: {SSHA}Bm4B3Bu/fuH6Bby9lgxfFAwLYrK0RbOq
+
+dn: ou=virus,dc=edt,dc=org
+changetype: add
+description: aquest es un camp molt delicat
+objectClass: organizationalunit
+ou: virus
+
+dn: cn=Koman 4,ou=usuaris,dc=edt,dc=org
+changetype: add
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: koman noturrons
+cn: tintin
+sn: koman
+ou: Alumnes
+uid: koman
+uidNumber: 0002
+gidNumber: 600
+homeDirectory: /tmp/home/koman
+userPassword: {SSHA}AJGTpGLBWbdcxo9kLpHMPnZq2bMF1Zdv
+
+dn: cn=Pau Pou,ou=usuaris,dc=edt,dc=org
+changetype: modrdn
+newrdn: cn=Pau Maria Pou
+deleteoldrdn: 0
+#newsuperior: ou=virus,dc=edt,dc=org
