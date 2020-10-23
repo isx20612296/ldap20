@@ -1,2 +1,3 @@
 access to * by * read
 access to * by * write
+access to * by self by * read
