@@ -1,7 +1,12 @@
-# LDAP Server
+# ldap20
+## ASIX M06-ASO @edt Curs 2020-2021
 
-@edt ASIX M06-ASO
-Curs 2020 - 2021
-* edtasixm06/ldap20:base Imatge base de un servidor ldap que funciona amb detach. carrega edt.org, els elements bàsics i els usuaris bàsics.
+Repositori de creació de'imatges de servidors ldap
 
+ * **ldap20:base**  servidor ldap bàsic.
 
+ * **ldap20:editat** servidor amb dues bases de
+     dades, dc=edt,dc=org i també dc=m06,dc=cat
+
+ * **ldap20:acl** servidor base amb fitxers d'exemple per
+     inserir dinàmicament acls diferents i practicar-les.
